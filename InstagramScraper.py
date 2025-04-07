@@ -6,8 +6,8 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 # Hardcoded credentials
-username = 'jrdnsgallery'
-password = 'fe9k0*jA5@&ygnr9tJJB'
+username = 'enter_your_username'
+password = 'enter_your_password'
 
 def login_instagram(driver, username, password):
     driver.get("https://www.instagram.com/accounts/login/")
@@ -101,4 +101,4 @@ def get_instagram_post_descriptions(target_user: str, num_posts: int):
         driver.quit()
 
 if __name__ == "__main__":
-    get_instagram_post_descriptions("jrdnsgallery", num_posts=6)
+    get_instagram_post_descriptions("enter_your_password", num_posts=6)
